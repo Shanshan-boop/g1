@@ -11,7 +11,6 @@ api_key = "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"
 
 # Create a new Groq client instance with the API key
 client = groq.Groq(api_key=api_key)
-client = groq.Groq()
 
 def make_api_call(messages, max_tokens, is_final_answer=False, custom_client=None):
     global client
